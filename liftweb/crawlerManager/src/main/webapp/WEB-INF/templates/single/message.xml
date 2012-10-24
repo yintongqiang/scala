@@ -1,0 +1,3 @@
+<div>
+    <lift:UserSnippet.getUsers/>
+</div>

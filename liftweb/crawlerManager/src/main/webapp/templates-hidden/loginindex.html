@@ -1,0 +1,84 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift='http://liftweb.net'>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        label.error {
+            padding-left: 16px;
+            margin-left: 2px;
+            color: red;
+        }
+    </style>
+    <title>监控平台2.0</title>
+    <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png"/>
+    <link rel="stylesheet" href="/public/stylesheets/bootstrap.min.css" media="screen"/>
+    <link rel="stylesheet" media="screen" href="/public/stylesheets/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" media="screen" href="/public/tree/tree_themes/SimpleTree.css"/>
+    <link rel="stylesheet" href="/public/ztree/demo.css" type="text/css"/>
+    <link rel="stylesheet" href="/public/ztree/zTreeStyle.css" type="text/css"/>
+    <script id="jquery" src="/classpath/jquery.js" type="text/javascript"/>
+    <script id="json" src="/classpath/json.js" type="text/javascript"/>
+    <script src="/public/javascripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/public/javascripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="/public/javascripts/jquery.form.js" type="text/javascript"></script>
+    <script src="/public/javascripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/public/javascripts/coupon.js" type="text/javascript"></script>
+    <script src="/public/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+    <script src="/public/tree/SimpleTree.js" type="text/javascript"></script>
+    <script src="/public/ztree/jquery.ztree.core-3.4.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">抓取调度平台</a>
+
+            <div class="btn-group pull-right">
+                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="icon-user"></i>未登录
+                    <span class="caret"></span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span12">
+        <div align="center" class="center">
+            <h1>抓取调度平台</h1>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <lift:bind name="content"/>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
